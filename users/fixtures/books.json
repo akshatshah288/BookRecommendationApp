@@ -1,0 +1,1202 @@
+[
+    {
+        "model": "users.book",
+        "pk": 1,
+        "fields": {
+            "title": "A Dance with Fire 1",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'The Lost Kingdom 1', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 2,
+        "fields": {
+            "title": "The Code of Honor 2",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Echoes of Eternity 2', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 3,
+        "fields": {
+            "title": "A Dance with Fire 3",
+            "author": "Liam Winters",
+            "description": "This is a captivating story titled 'The Silent Forest 3', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 4,
+        "fields": {
+            "title": "The Code of Honor 4",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'Whispers in the Wind 4', filled with mystery and excitement.",
+            "genre": "Adventure",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 5,
+        "fields": {
+            "title": "The Code of Honor 5",
+            "author": "Lucas Phoenix",
+            "description": "This is a captivating story titled 'Tales of the Forgotten 5', filled with mystery and excitement.",
+            "genre": "Historical",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 6,
+        "fields": {
+            "title": "Shadows and Secrets 6",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'Chronicles of Time 6', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 7,
+        "fields": {
+            "title": "Echoes of Eternity 7",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'Legends of Valor 7', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 8,
+        "fields": {
+            "title": "Journey to the Stars 8",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'The Crystal Key 8', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 9,
+        "fields": {
+            "title": "A Realm Reborn 9",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'Journey to the Stars 9', filled with mystery and excitement.",
+            "genre": "Adventure",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 10,
+        "fields": {
+            "title": "The Enchanted Realm 10",
+            "author": "Liam Winters",
+            "description": "This is a captivating story titled 'Shadows and Secrets 10', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 11,
+        "fields": {
+            "title": "Dreamcatcher 11",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'Beneath the Waves 11', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 12,
+        "fields": {
+            "title": "Mystic Falls 12",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'A Dance with Fire 12', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 13,
+        "fields": {
+            "title": "Voices from Beyond 13",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'Dreamcatcher 13', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 14,
+        "fields": {
+            "title": "The Crystal Key 14",
+            "author": "Ella Rose",
+            "description": "This is a captivating story titled 'Mystic Falls 14', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 15,
+        "fields": {
+            "title": "The Lost Kingdom 15",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'The Enchanted Realm 15', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 16,
+        "fields": {
+            "title": "Voices from Beyond 16",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'Frozen in Time 16', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 17,
+        "fields": {
+            "title": "Mystic Falls 17",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Winds of Change 17', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 18,
+        "fields": {
+            "title": "The Silent Forest 18",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'A Realm Reborn 18', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 19,
+        "fields": {
+            "title": "The Code of Honor 19",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'The Code of Honor 19', filled with mystery and excitement.",
+            "genre": "Historical",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 20,
+        "fields": {
+            "title": "The Enchanted Realm 20",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Voices from Beyond 20', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 21,
+        "fields": {
+            "title": "A Realm Reborn 21",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'The Lost Kingdom 21', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 22,
+        "fields": {
+            "title": "Mystic Falls 22",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'Echoes of Eternity 22', filled with mystery and excitement.",
+            "genre": "Adventure",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 23,
+        "fields": {
+            "title": "The Code of Honor 23",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'The Silent Forest 23', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 24,
+        "fields": {
+            "title": "A Realm Reborn 24",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Whispers in the Wind 24', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 25,
+        "fields": {
+            "title": "Chronicles of Time 25",
+            "author": "Lucas Phoenix",
+            "description": "This is a captivating story titled 'Tales of the Forgotten 25', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 26,
+        "fields": {
+            "title": "Shadows and Secrets 26",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Chronicles of Time 26', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 27,
+        "fields": {
+            "title": "The Lost Kingdom 27",
+            "author": "Ava Skye",
+            "description": "This is a captivating story titled 'Legends of Valor 27', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 28,
+        "fields": {
+            "title": "Journey to the Stars 28",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'The Crystal Key 28', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 29,
+        "fields": {
+            "title": "Dreamcatcher 29",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'Journey to the Stars 29', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 30,
+        "fields": {
+            "title": "Legends of Valor 30",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Shadows and Secrets 30', filled with mystery and excitement.",
+            "genre": "Adventure",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 31,
+        "fields": {
+            "title": "Chronicles of Time 31",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'Beneath the Waves 31', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 32,
+        "fields": {
+            "title": "The Code of Honor 32",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'A Dance with Fire 32', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 33,
+        "fields": {
+            "title": "Voices from Beyond 33",
+            "author": "Ella Rose",
+            "description": "This is a captivating story titled 'Dreamcatcher 33', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 34,
+        "fields": {
+            "title": "The Crystal Key 34",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'Mystic Falls 34', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 35,
+        "fields": {
+            "title": "Tales of the Forgotten 35",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'The Enchanted Realm 35', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 36,
+        "fields": {
+            "title": "A Dance with Fire 36",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Frozen in Time 36', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 37,
+        "fields": {
+            "title": "A Dance with Fire 37",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'Winds of Change 37', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 38,
+        "fields": {
+            "title": "A Realm Reborn 38",
+            "author": "Ava Skye",
+            "description": "This is a captivating story titled 'A Realm Reborn 38', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 39,
+        "fields": {
+            "title": "Mystic Falls 39",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'The Code of Honor 39', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 40,
+        "fields": {
+            "title": "Beneath the Waves 40",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'Voices from Beyond 40', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 41,
+        "fields": {
+            "title": "Echoes of Eternity 41",
+            "author": "Ava Skye",
+            "description": "This is a captivating story titled 'The Lost Kingdom 41', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 42,
+        "fields": {
+            "title": "Mystic Falls 42",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Echoes of Eternity 42', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 43,
+        "fields": {
+            "title": "Whispers in the Wind 43",
+            "author": "Liam Winters",
+            "description": "This is a captivating story titled 'The Silent Forest 43', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 44,
+        "fields": {
+            "title": "The Crystal Key 44",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Whispers in the Wind 44', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 45,
+        "fields": {
+            "title": "The Code of Honor 45",
+            "author": "Ella Rose",
+            "description": "This is a captivating story titled 'Tales of the Forgotten 45', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 46,
+        "fields": {
+            "title": "Whispers in the Wind 46",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Chronicles of Time 46', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 47,
+        "fields": {
+            "title": "Mystic Falls 47",
+            "author": "Ava Skye",
+            "description": "This is a captivating story titled 'Legends of Valor 47', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 48,
+        "fields": {
+            "title": "Legends of Valor 48",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'The Crystal Key 48', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 49,
+        "fields": {
+            "title": "Echoes of Eternity 49",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Journey to the Stars 49', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 50,
+        "fields": {
+            "title": "Legends of Valor 50",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'Shadows and Secrets 50', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 51,
+        "fields": {
+            "title": "Tales of the Forgotten 51",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'Beneath the Waves 51', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 52,
+        "fields": {
+            "title": "A Realm Reborn 52",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'A Dance with Fire 52', filled with mystery and excitement.",
+            "genre": "Adventure",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 53,
+        "fields": {
+            "title": "Dreamcatcher 53",
+            "author": "Ella Rose",
+            "description": "This is a captivating story titled 'Dreamcatcher 53', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 54,
+        "fields": {
+            "title": "Voices from Beyond 54",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'Mystic Falls 54', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 55,
+        "fields": {
+            "title": "Whispers in the Wind 55",
+            "author": "Lucas Phoenix",
+            "description": "This is a captivating story titled 'The Enchanted Realm 55', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 56,
+        "fields": {
+            "title": "Frozen in Time 56",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'Frozen in Time 56', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 57,
+        "fields": {
+            "title": "Echoes of Eternity 57",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'Winds of Change 57', filled with mystery and excitement.",
+            "genre": "Historical",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 58,
+        "fields": {
+            "title": "Shadows and Secrets 58",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'A Realm Reborn 58', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 59,
+        "fields": {
+            "title": "Beneath the Waves 59",
+            "author": "Ella Rose",
+            "description": "This is a captivating story titled 'The Code of Honor 59', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 60,
+        "fields": {
+            "title": "Echoes of Eternity 60",
+            "author": "Ava Skye",
+            "description": "This is a captivating story titled 'Voices from Beyond 60', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 61,
+        "fields": {
+            "title": "A Dance with Fire 61",
+            "author": "Liam Winters",
+            "description": "This is a captivating story titled 'The Lost Kingdom 61', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 62,
+        "fields": {
+            "title": "Winds of Change 62",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Echoes of Eternity 62', filled with mystery and excitement.",
+            "genre": "Adventure",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 63,
+        "fields": {
+            "title": "Shadows and Secrets 63",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'The Silent Forest 63', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 64,
+        "fields": {
+            "title": "Legends of Valor 64",
+            "author": "Ava Skye",
+            "description": "This is a captivating story titled 'Whispers in the Wind 64', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 65,
+        "fields": {
+            "title": "Legends of Valor 65",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Tales of the Forgotten 65', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 66,
+        "fields": {
+            "title": "Legends of Valor 66",
+            "author": "Liam Winters",
+            "description": "This is a captivating story titled 'Chronicles of Time 66', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 67,
+        "fields": {
+            "title": "Dreamcatcher 67",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Legends of Valor 67', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 68,
+        "fields": {
+            "title": "Echoes of Eternity 68",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'The Crystal Key 68', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 69,
+        "fields": {
+            "title": "Beneath the Waves 69",
+            "author": "Lucas Phoenix",
+            "description": "This is a captivating story titled 'Journey to the Stars 69', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 70,
+        "fields": {
+            "title": "Tales of the Forgotten 70",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'Shadows and Secrets 70', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 71,
+        "fields": {
+            "title": "Mystic Falls 71",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'Beneath the Waves 71', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 72,
+        "fields": {
+            "title": "Voices from Beyond 72",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'A Dance with Fire 72', filled with mystery and excitement.",
+            "genre": "Science Fiction",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 73,
+        "fields": {
+            "title": "Tales of the Forgotten 73",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'Dreamcatcher 73', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 74,
+        "fields": {
+            "title": "Shadows and Secrets 74",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'Mystic Falls 74', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 75,
+        "fields": {
+            "title": "Frozen in Time 75",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'The Enchanted Realm 75', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 76,
+        "fields": {
+            "title": "A Realm Reborn 76",
+            "author": "Ella Rose",
+            "description": "This is a captivating story titled 'Frozen in Time 76', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 77,
+        "fields": {
+            "title": "Tales of the Forgotten 77",
+            "author": "Lucas Phoenix",
+            "description": "This is a captivating story titled 'Winds of Change 77', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 78,
+        "fields": {
+            "title": "The Crystal Key 78",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'A Realm Reborn 78', filled with mystery and excitement.",
+            "genre": "Young Adult",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 79,
+        "fields": {
+            "title": "The Silent Forest 79",
+            "author": "Ella Rose",
+            "description": "This is a captivating story titled 'The Code of Honor 79', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 80,
+        "fields": {
+            "title": "A Dance with Fire 80",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Voices from Beyond 80', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 81,
+        "fields": {
+            "title": "Mystic Falls 81",
+            "author": "Olivia Sage",
+            "description": "This is a captivating story titled 'The Lost Kingdom 81', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 82,
+        "fields": {
+            "title": "The Code of Honor 82",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Echoes of Eternity 82', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 83,
+        "fields": {
+            "title": "Journey to the Stars 83",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'The Silent Forest 83', filled with mystery and excitement.",
+            "genre": "Adventure",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 84,
+        "fields": {
+            "title": "Dreamcatcher 84",
+            "author": "Ella Rose",
+            "description": "This is a captivating story titled 'Whispers in the Wind 84', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 85,
+        "fields": {
+            "title": "Winds of Change 85",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Tales of the Forgotten 85', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 86,
+        "fields": {
+            "title": "Legends of Valor 86",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Chronicles of Time 86', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 87,
+        "fields": {
+            "title": "Journey to the Stars 87",
+            "author": "Jackson Storm",
+            "description": "This is a captivating story titled 'Legends of Valor 87', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 88,
+        "fields": {
+            "title": "The Code of Honor 88",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'The Crystal Key 88', filled with mystery and excitement.",
+            "genre": "Fantasy",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 89,
+        "fields": {
+            "title": "The Lost Kingdom 89",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Journey to the Stars 89', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 90,
+        "fields": {
+            "title": "Frozen in Time 90",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Shadows and Secrets 90', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 91,
+        "fields": {
+            "title": "Mystic Falls 91",
+            "author": "Lucas Phoenix",
+            "description": "This is a captivating story titled 'Beneath the Waves 91', filled with mystery and excitement.",
+            "genre": "Adventure",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 92,
+        "fields": {
+            "title": "The Silent Forest 92",
+            "author": "Liam Winters",
+            "description": "This is a captivating story titled 'A Dance with Fire 92', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 93,
+        "fields": {
+            "title": "The Enchanted Realm 93",
+            "author": "Sophia Blaze",
+            "description": "This is a captivating story titled 'Dreamcatcher 93', filled with mystery and excitement.",
+            "genre": "Historical",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 94,
+        "fields": {
+            "title": "Journey to the Stars 94",
+            "author": "Lucas Phoenix",
+            "description": "This is a captivating story titled 'Mystic Falls 94', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 95,
+        "fields": {
+            "title": "The Crystal Key 95",
+            "author": "Noah Wilder",
+            "description": "This is a captivating story titled 'The Enchanted Realm 95', filled with mystery and excitement.",
+            "genre": "Drama",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 96,
+        "fields": {
+            "title": "Voices from Beyond 96",
+            "author": "Mason Rivers",
+            "description": "This is a captivating story titled 'Frozen in Time 96', filled with mystery and excitement.",
+            "genre": "Horror",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 97,
+        "fields": {
+            "title": "Shadows and Secrets 97",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'Winds of Change 97', filled with mystery and excitement.",
+            "genre": "Historical",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 98,
+        "fields": {
+            "title": "The Silent Forest 98",
+            "author": "Lucas Phoenix",
+            "description": "This is a captivating story titled 'A Realm Reborn 98', filled with mystery and excitement.",
+            "genre": "Mystery",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 99,
+        "fields": {
+            "title": "Mystic Falls 99",
+            "author": "Aria Knight",
+            "description": "This is a captivating story titled 'The Code of Honor 99', filled with mystery and excitement.",
+            "genre": "Thriller",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    },
+    {
+        "model": "users.book",
+        "pk": 100,
+        "fields": {
+            "title": "Winds of Change 100",
+            "author": "Liam Winters",
+            "description": "This is a captivating story titled 'Voices from Beyond 100', filled with mystery and excitement.",
+            "genre": "Romance",
+            "cover_image": "",
+            "pdf_file": ""
+        }
+    }
+]
