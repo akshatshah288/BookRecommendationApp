@@ -1,0 +1,101 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book_hive</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+    <style>
+       
+
+        header {
+            background-color: rgba(14, 14, 14, 0.4); /* Light semi-transparent white */            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            {% comment %} backdrop-filter: blur(8px); /* Glassy blur effect */ {% endcomment %}
+            -webkit-backdrop-filter: blur(8px); /* Safari support */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+        }
+        
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background-color: rgba(14, 14, 14, 0.4); /* Light semi-transparent white */
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            {% comment %} backdrop-filter: blur(8px); /* Makes text readable while showing background */ {% endcomment %}
+            -webkit-backdrop-filter: blur(8px); /* Safari support */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: #2c3e50;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1 style="color:yellow">Explore, Review & Share Your Shelf</h1>
+</header>
+
+<nav>
+    <ul>
+        <li class="active"><a href="{% url 'UserHome' %}">Home</a></li>
+        <li class="active"><a href="{% url 'home' %}">Administrative</a></li>
+        <li class="active"><a href="{% url 'filter_books' %}">User</a></li>
+        <li class="active"><a href="{% url 'index' %}">Logout</a></li>
+    </ul>
+</nav>
+{%block contents%}
+{%endblock%}
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+{% extends 'users/userbase.html' %}
+
+{% block contents %}
+{% load static %}
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        background-image: url("{% static 'img/background3.jpg' %}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        min-height: 100vh; /* Ensures it covers the viewport height */
+    }
+
+    /* Optional: To hide overflow in case of scrollbars */
+    html, body {
+        overflow: hidden;
+    }
+</style>
+
+{% endblock %}

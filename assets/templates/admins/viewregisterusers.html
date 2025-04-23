@@ -1,0 +1,111 @@
+{% extends 'admins/adminbase.html' %}
+{% load static %}
+{% block contents %}
+<style>
+    body {
+        background: url("{% static 'images/background1.jpg' %}") no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    table {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    table td, table th {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+    }
+
+    table tr:nth-child(even) {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    table tr:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    table th {
+        background-color: #BB2649;
+        color: white;
+        padding: 15px;
+    }
+
+    .section-header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .btn-link {
+        color: #D1E8E2;
+        text-decoration: underline;
+    }
+
+    .btn-link:hover {
+        color: #FFC107;
+    }
+</style>
+
+<section class="content">
+    <div class="container">
+        <div class="we-do-details">
+            <div class="section-header">
+                <h2>View Registered Users</h2>
+                <p>Below is the list of registered users in the system.</p>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Name</th>
+                        <th>Login ID</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                        <th>Locality</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for i in data %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ i.name }}</td>
+                        <td>{{ i.loginid }}</td>
+                        <td>{{ i.mobile }}</td>
+                        <td>{{ i.email }}</td>
+                        <td>{{ i.locality }}</td>
+                        <td>{{ i.status }}</td>
+                        <td>
+                            {% if i.status == 'waiting' %}
+                            <a class="btn-link" href="{% url 'activate_users' %}?uid={{ i.id }}">Activate</a>
+                            {% else %}
+                            Activated / <a class="btn-link" href="{% url 'delete_users' %}?uid={{ i.id }}">Delete</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
