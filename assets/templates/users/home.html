@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookHive</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url("{% static 'img\background2.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            margin: 0;
+            color: #fff;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            min-height: 100vh;
+            padding-bottom: 40px;
+        }
+
+        .navbar {
+            background-color: rgba(51, 51, 51, 0.9);
+            overflow: hidden;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #f2f2f2;
+            text-decoration: none;
+            padding: 10px 18px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #ff6600;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            margin-top: 40px;
+            backdrop-filter: blur(6px);
+        }
+
+        h1, h2, h3 {
+            color: #ffcc00;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+<div class="overlay">
+    <div class="navbar">
+        <div class="logo">📚 BookHive</div>
+        <div>
+            <a href="{% url 'UserHome' %}">Home</a>
+            <a href="{% url 'add_book' %}">Add Book</a>
+            <a href="{% url 'book_list' %}">Book List</a>
+            <a href="{% url 'index' %}">Logout</a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+
+
+
+

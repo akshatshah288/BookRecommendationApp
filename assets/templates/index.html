@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block contents %} 
+ <style>
+
+    h1
+    {
+        color:#FFD700; /* Orange color for heading */
+        font-size: 2rem; /* Increase font size */
+        font-family: 'Georgia', serif; /* Use a distinct font */
+        {% comment %} text-align: center; /* Center align the heading */ {% endcomment %}
+        text-transform: uppercase; /* Make the heading uppercase */
+        letter-spacing: 2px; /* Increase letter spacing for style */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    }
+</style>
+<div class="content d-flex flex-column  align-items-center" style="min-height: 80vh; text-align: center; padding: 20px;">
+    <h1 style="color: yelllow; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);margin-top:50px;margin-left:-150px">Book_Hive<br>Where Every Book Finds Its Reader</h1>
+
+</div>
+ 
+
+
+{% endblock %} 
