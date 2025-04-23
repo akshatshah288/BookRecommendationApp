@@ -1,0 +1,291 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Books | BookHive</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #f7f7f7, #e8e8e8);
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: rgba(51, 51, 51, 0.95);
+            overflow: hidden;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #f2f2f2;
+            text-decoration: none;
+            padding: 10px 18px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #ff6600;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+            color: #333;
+            font-size: 30px;
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .book-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .book-card:hover {
+            transform: scale(1.02);
+        }
+
+        .book-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .book-content {
+            padding: 15px;
+        }
+
+        .book-content h3 {
+            margin: 8px 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .book-content p {
+            margin: 4px 0;
+            font-size: 13px;
+            color: #555;
+        }
+
+        .book-actions {
+            margin-top: 10px;
+        }
+
+        .book-actions a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 5px;
+            font-size: 12px;
+        }
+
+        .book-actions a:hover {
+            background-color: #0056b3;
+        }
+
+        .review-block {
+            font-size: 12px;
+            background: #f1f1f1;
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">📚 BookHive</div>
+    <div>
+        <a href="{% url 'UserHome' %}">Home</a>
+        <a href="{% url 'add_book' %}">Add Book</a>
+        <a href="{% url 'book_list' %}">Book List</a>
+        <a href="{% url 'index' %}">Logout</a>
+    </div>
+</div>
+
+<h2>📚 <u>All_Books</u></h2>
+
+<div class="book-grid">
+    {% for book in books %}
+        <div class="book-card">
+            {% if book.cover_image %}
+                <img src="{{ book.cover_image.url }}" alt="{{ book.title }} Cover">
+            {% else %}
+                <img src="{% static 'img/background1.jpg' %}" alt="No cover">
+            {% endif %}
+            <br><br>
+            {% if book.pdf_file and book.pdf_file.url %}
+            <a href="{{ book.pdf_file.url }}" target="_blank" style="margin-right: 10px;">📖 Open</a>
+            <a href="{{ book.pdf_file.url }}" download>⬇️ Download</a>
+        {% else %}
+            <p style="color: red;">No PDF uploaded</p>
+        {% endif %}
+        
+
+
+            <div class="book-content">
+                <h3>{{ book.title }}</h3>
+                <p><strong>Author:</strong> {{ book.author }}</p>
+                <p><strong>Genre:</strong> {{ book.genre }}</p>
+                <p>{{ book.description|truncatechars:80 }}</p>
+
+                <div class="book-actions">
+                    <a href="{% url 'edit_book' book.id %}">Edit</a>
+                    <a href="{% url 'delete_book' book.id %}" onclick="return confirm('Are you sure you want to delete this book?');" style="color: red; font-weight: bold;">
+                        🗑️ Delete
+                    </a>
+                    
+                    {% comment %} <a href="{% url 'add_review' book.id %}">Review</a> {% endcomment %}
+                </div>
+
+                <div class="review-block">
+                    <strong>Reviews:</strong><br>
+                    {% for review in book.reviews.all %}
+                        <p><strong>{{ review.user }}</strong>: {{ review.comment }} (⭐ {{ review.rating }})</p>
+                    {% empty %}
+                        <p>No reviews yet.</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>
+
+
+
+{% comment %} {% load static %}
+<h2 style="text-align: center; margin-top: 20px;">All Books</h2>
+
+<style>
+    .book-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .book-card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .book-card:hover {
+        transform: scale(1.02);
+    }
+
+    .book-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .book-content {
+        padding: 15px;
+    }
+
+    .book-content h3 {
+        margin: 10px 0 5px;
+    }
+
+    .book-content p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    .book-actions {
+        margin-top: 10px;
+    }
+
+    .book-actions a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        padding: 5px 10px;
+        border-radius: 4px;
+        margin-right: 5px;
+        font-size: 13px;
+    }
+
+    .book-actions a:hover {
+        background-color: #0056b3;
+    }
+
+    .review-block {
+        font-size: 13px;
+        background: #f9f9f9;
+        margin-top: 10px;
+        padding: 8px;
+        border-radius: 4px;
+    }
+</style>
+
+<div class="book-grid">
+    {% for book in books %}
+        <div class="book-card">
+            {% if book.cover_image %}
+                <img src="{{ book.cover_image.url }}" alt="{{ book.title }} Cover">
+            {% else %}
+                <img src="{% static 'img\background1.jpg' %}" alt="No cover">
+            {% endif %}
+
+            <div class="book-content">
+                <h3>{{ book.title }}</h3>
+                <p><strong>Author:</strong> {{ book.author }}</p>
+                <p><strong>Genre:</strong> {{ book.genre }}</p>
+                <p>{{ book.description|truncatechars:100 }}</p>
+
+                <div class="book-actions">
+                    <a href="{% url 'edit_book' book.id %}">Edit</a>
+                    <a href="{% url 'add_review' book.id %}">Review</a>
+                </div>
+
+                <div class="review-block">
+                    <strong>Reviews:</strong><br>
+                    {% for review in book.reviews.all %}
+                        <p><strong>{{ review.user }}</strong>: {{ review.comment }} (⭐ {{ review.rating }})</p>
+                    {% empty %}
+                        <p>No reviews yet.</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+
+ {% endcomment %}
